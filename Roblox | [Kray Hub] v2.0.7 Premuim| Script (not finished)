@@ -1,0 +1,555 @@
+-- 	Kray Hub
+-- Version: 2.0.7 Prem Ui
+
+-- Instances:
+
+local KrayUiPrem = Instance.new("")
+local Frame = Instance.new("Frame")
+local kRAY = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
+local UICorner_2 = Instance.new("UICorner")
+local Ram = Instance.new("Frame")
+local ImageButton = Instance.new("ImageButton")
+local TextButton = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local ImageLabel = Instance.new("ImageLabel")
+local UICorner_4 = Instance.new("UICorner")
+local TextButton_2 = Instance.new("TextButton")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local UICorner_5 = Instance.new("UICorner")
+local UICorner_6 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local ImageButton_2 = Instance.new("ImageButton")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local ImageButton_3 = Instance.new("ImageButton")
+local Credits = Instance.new("Frame")
+local TextLabel_4 = Instance.new("TextLabel")
+local Icon = Instance.new("ImageLabel")
+local UICorner_7 = Instance.new("UICorner")
+local Triangle = Instance.new("ImageLabel")
+local UIGradient = Instance.new("UIGradient")
+local Credits_2 = Instance.new("Frame")
+local UICorner_8 = Instance.new("UICorner")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local UIGradient_2 = Instance.new("UIGradient")
+local ImageButton_4 = Instance.new("ImageButton")
+local SH = Instance.new("Frame")
+local TextLabel_7 = Instance.new("TextLabel")
+local ImageButton_5 = Instance.new("ImageButton")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local TextButton_4 = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local TextButton_5 = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local TextButton_6 = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local TextButton_7 = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local TextButton_8 = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local TextButton_9 = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local TextButton_10 = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local TextButton_11 = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+
+--Properties:
+
+KrayUiPrem.Name = "Kray Ui Prem"
+KrayUiPrem.Parent = game.Workspace
+KrayUiPrem.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = KrayUiPrem
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.Position = UDim2.new(0.200857326, 0, 0.190476194, 0)
+Frame.Size = UDim2.new(0, 492, 0, 280)
+
+kRAY.Name = "kRAY"
+kRAY.Parent = Frame
+kRAY.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+kRAY.BorderColor3 = Color3.fromRGB(255, 255, 255)
+kRAY.Size = UDim2.new(0, 492, 0, 40)
+
+TextLabel.Parent = kRAY
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0, 0, 0.075000003, 0)
+TextLabel.Size = UDim2.new(0, 486, 0, 33)
+TextLabel.Font = Enum.Font.GothamBold
+TextLabel.Text = "KRAY HUB"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 14.000
+
+UICorner.CornerRadius = UDim.new(0.300000012, 0)
+UICorner.Parent = TextLabel
+
+UICorner_2.CornerRadius = UDim.new(0.300000012, 0)
+UICorner_2.Parent = kRAY
+
+Ram.Name = "Ram"
+Ram.Parent = Frame
+Ram.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+Ram.BorderColor3 = Color3.fromRGB(10, 10, 10)
+Ram.Position = UDim2.new(-0.0012549113, 0, 0, 0)
+Ram.Size = UDim2.new(0, 157, 0, 280)
+Ram.Visible = false
+
+ImageButton.Parent = Ram
+ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton.BackgroundTransparency = 1.000
+ImageButton.Position = UDim2.new(0.733757913, 0, 0.0107142795, 0)
+ImageButton.Size = UDim2.new(0, 41, 0, 39)
+ImageButton.Image = "rbxassetid://7072706703"
+
+TextButton.Parent = Ram
+TextButton.BackgroundColor3 = Color3.fromRGB(1, 1, 1)
+TextButton.Position = UDim2.new(0.00393258827, 0, 0.225832045, 0)
+TextButton.Size = UDim2.new(0, 156, 0, 50)
+TextButton.Font = Enum.Font.GothamBold
+TextButton.Text = "Script Hub"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 20.000
+
+UICorner_3.CornerRadius = UDim.new(0.300000012, 0)
+UICorner_3.Parent = TextButton
+
+ImageLabel.Parent = TextButton
+ImageLabel.BackgroundColor3 = Color3.fromRGB(1, 1, 1)
+ImageLabel.Position = UDim2.new(0.0448717959, 0, 0.179999992, 0)
+ImageLabel.Size = UDim2.new(0, 19, 0, 31)
+ImageLabel.Image = "rbxassetid://7072707514"
+
+UICorner_4.CornerRadius = UDim.new(0.300000012, 0)
+UICorner_4.Parent = ImageLabel
+
+TextButton_2.Parent = Ram
+TextButton_2.BackgroundColor3 = Color3.fromRGB(1, 1, 1)
+TextButton_2.Position = UDim2.new(0.0485185757, 0, 0.462173581, 0)
+TextButton_2.Size = UDim2.new(0, 146, 0, 51)
+TextButton_2.Font = Enum.Font.GothamBold
+TextButton_2.Text = "Credits"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextSize = 22.000
+
+ImageLabel_2.Parent = TextButton_2
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(1, 1, 1)
+ImageLabel_2.BorderColor3 = Color3.fromRGB(1, 1, 1)
+ImageLabel_2.Position = UDim2.new(0.0479452051, 0, 0.246041253, 0)
+ImageLabel_2.Size = UDim2.new(0, 25, 0, 28)
+ImageLabel_2.Image = "rbxassetid://7072988037"
+
+UICorner_5.CornerRadius = UDim.new(0.300000012, 0)
+UICorner_5.Parent = ImageLabel_2
+
+UICorner_6.CornerRadius = UDim.new(0.300000012, 0)
+UICorner_6.Parent = TextButton_2
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.278455287, 0, 0.892857134, 0)
+TextLabel_2.Size = UDim2.new(0, 200, 0, 30)
+TextLabel_2.Font = Enum.Font.Roboto
+TextLabel_2.Text = "V.2.0.5 Premium"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 14.000
+
+TextLabel_3.Parent = Frame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.290650427, 0, 0.410714269, 0)
+TextLabel_3.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_3.Font = Enum.Font.GothamBlack
+TextLabel_3.Text = "Made by VeCon_X"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+ImageButton_2.Parent = Frame
+ImageButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton_2.BackgroundTransparency = 1.000
+ImageButton_2.Position = UDim2.new(0.918699205, 0, 0, 0)
+ImageButton_2.Size = UDim2.new(0, 40, 0, 40)
+ImageButton_2.Image = "rbxassetid://7072725342"
+
+UIAspectRatioConstraint.Parent = ImageButton_2
+
+ImageButton_3.Parent = Frame
+ImageButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton_3.BackgroundTransparency = 1.000
+ImageButton_3.Position = UDim2.new(0.0142276417, 0, 0.010714286, 0)
+ImageButton_3.Size = UDim2.new(0, 44, 0, 47)
+ImageButton_3.Image = "rbxassetid://7072718840"
+
+Credits.Name = "Credits"
+Credits.Parent = Frame
+Credits.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Credits.Position = UDim2.new(0, 0, 0.0107142925, 0)
+Credits.Size = UDim2.new(0, 492, 0, 280)
+Credits.Visible = false
+
+TextLabel_4.Parent = Credits
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Size = UDim2.new(0, 492, 0, 50)
+TextLabel_4.Font = Enum.Font.Nunito
+TextLabel_4.Text = "CREDITS"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 42.000
+
+Icon.Name = "Icon"
+Icon.Parent = Credits
+Icon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Icon.Position = UDim2.new(0.405287951, 0, 0.259593964, 0)
+Icon.Size = UDim2.new(0.15101327, 0, 0.248122841, 0)
+Icon.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+UICorner_7.CornerRadius = UDim.new(1, 0)
+UICorner_7.Parent = Icon
+
+Triangle.Name = "Triangle"
+Triangle.Parent = Icon
+Triangle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Triangle.BackgroundTransparency = 1.000
+Triangle.Position = UDim2.new(0.397856802, 0, 1.06510556, 0)
+Triangle.Rotation = 180.000
+Triangle.Size = UDim2.new(0.204172298, 0, 0.181071654, 0)
+Triangle.Image = "http://www.roblox.com/asset/?id=9723646128"
+
+UIGradient.Offset = Vector2.new(0, -1)
+UIGradient.Rotation = -90
+UIGradient.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 1.00), NumberSequenceKeypoint.new(1.00, 0.00)}
+UIGradient.Parent = Triangle
+
+Credits_2.Name = "Credits"
+Credits_2.Parent = Icon
+Credits_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Credits_2.Position = UDim2.new(-1.1164031, 0, 1.28729856, 0)
+Credits_2.Size = UDim2.new(3.24237251, 0, 0.447768718, 0)
+
+UICorner_8.CornerRadius = UDim.new(0.25, 0)
+UICorner_8.Parent = Credits_2
+
+TextLabel_5.Parent = Credits_2
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Size = UDim2.new(1, 0, 0.38511622, 0)
+TextLabel_5.Font = Enum.Font.SourceSansLight
+TextLabel_5.Text = "VeCon_X"
+TextLabel_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+TextLabel_6.Parent = Credits_2
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(-0.00157104456, 0, 0.38511613, 0)
+TextLabel_6.Size = UDim2.new(1, 0, 0.611153781, 0)
+TextLabel_6.Font = Enum.Font.SourceSansLight
+TextLabel_6.Text = "(SeaTea0_0)"
+TextLabel_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
+
+UIGradient_2.Offset = Vector2.new(0, -1)
+UIGradient_2.Rotation = -90
+UIGradient_2.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 1.00), NumberSequenceKeypoint.new(1.00, 0.00)}
+UIGradient_2.Parent = Credits_2
+
+ImageButton_4.Parent = Credits
+ImageButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton_4.BackgroundTransparency = 1.000
+ImageButton_4.Position = UDim2.new(0.878066897, 0, -0.0107142776, 0)
+ImageButton_4.Size = UDim2.new(0, 59, 0, 67)
+ImageButton_4.Image = "rbxassetid://7072706703"
+
+SH.Name = "SH"
+SH.Parent = Frame
+SH.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SH.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SH.Size = UDim2.new(0, 492, 0, 280)
+SH.Visible = false
+
+TextLabel_7.Parent = SH
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(-0.00203252025, 0, 0.00357142859, 0)
+TextLabel_7.Size = UDim2.new(0, 492, 0, 50)
+TextLabel_7.Font = Enum.Font.GothamBold
+TextLabel_7.Text = "Script Hub"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextSize = 36.000
+
+ImageButton_5.Parent = SH
+ImageButton_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton_5.BackgroundTransparency = 1.000
+ImageButton_5.Position = UDim2.new(0.878066897, 0, -0.0107142776, 0)
+ImageButton_5.Size = UDim2.new(0, 59, 0, 67)
+ImageButton_5.Image = "rbxassetid://7072706703"
+
+ScrollingFrame.Parent = SH
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame.Position = UDim2.new(0, 0, 0.214285716, 0)
+ScrollingFrame.Size = UDim2.new(0, 492, 0, 230)
+ScrollingFrame.ScrollBarThickness = 11
+
+TextButton_3.Parent = ScrollingFrame
+TextButton_3.BackgroundColor3 = Color3.fromRGB(49, 48, 48)
+TextButton_3.BorderColor3 = Color3.fromRGB(49, 48, 48)
+TextButton_3.Position = UDim2.new(0.0142276427, 0, 0.00892857183, 0)
+TextButton_3.Size = UDim2.new(0, 200, 0, 50)
+TextButton_3.Font = Enum.Font.GothamBold
+TextButton_3.Text = "Script"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextSize = 14.000
+
+UICorner_9.CornerRadius = UDim.new(0, 32)
+UICorner_9.Parent = TextButton_3
+
+TextButton_4.Parent = ScrollingFrame
+TextButton_4.BackgroundColor3 = Color3.fromRGB(49, 48, 48)
+TextButton_4.BorderColor3 = Color3.fromRGB(49, 48, 48)
+TextButton_4.Position = UDim2.new(0.0142276427, 0, 0.339285702, 0)
+TextButton_4.Size = UDim2.new(0, 200, 0, 50)
+TextButton_4.Font = Enum.Font.GothamBold
+TextButton_4.Text = "Script"
+TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.TextSize = 14.000
+
+UICorner_10.CornerRadius = UDim.new(0, 32)
+UICorner_10.Parent = TextButton_4
+
+TextButton_5.Parent = ScrollingFrame
+TextButton_5.BackgroundColor3 = Color3.fromRGB(49, 48, 48)
+TextButton_5.BorderColor3 = Color3.fromRGB(49, 48, 48)
+TextButton_5.Position = UDim2.new(0.455284536, 0, 0.22857143, 0)
+TextButton_5.Size = UDim2.new(0, 200, 0, 50)
+TextButton_5.Font = Enum.Font.GothamBold
+TextButton_5.Text = "Script"
+TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.TextSize = 14.000
+
+UICorner_11.CornerRadius = UDim.new(0, 32)
+UICorner_11.Parent = TextButton_5
+
+TextButton_6.Parent = ScrollingFrame
+TextButton_6.BackgroundColor3 = Color3.fromRGB(49, 48, 48)
+TextButton_6.BorderColor3 = Color3.fromRGB(49, 48, 48)
+TextButton_6.Position = UDim2.new(0.0142276427, 0, 0.22857143, 0)
+TextButton_6.Size = UDim2.new(0, 200, 0, 50)
+TextButton_6.Font = Enum.Font.GothamBold
+TextButton_6.Text = "Script"
+TextButton_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.TextSize = 14.000
+
+UICorner_12.CornerRadius = UDim.new(0, 32)
+UICorner_12.Parent = TextButton_6
+
+TextButton_7.Parent = ScrollingFrame
+TextButton_7.BackgroundColor3 = Color3.fromRGB(49, 48, 48)
+TextButton_7.BorderColor3 = Color3.fromRGB(49, 48, 48)
+TextButton_7.Position = UDim2.new(0.455284536, 0, 0.116071425, 0)
+TextButton_7.Size = UDim2.new(0, 200, 0, 50)
+TextButton_7.Font = Enum.Font.GothamBold
+TextButton_7.Text = "Script"
+TextButton_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.TextSize = 14.000
+
+UICorner_13.CornerRadius = UDim.new(0, 32)
+UICorner_13.Parent = TextButton_7
+
+TextButton_8.Parent = ScrollingFrame
+TextButton_8.BackgroundColor3 = Color3.fromRGB(49, 48, 48)
+TextButton_8.BorderColor3 = Color3.fromRGB(49, 48, 48)
+TextButton_8.Position = UDim2.new(0.0142276427, 0, 0.116071425, 0)
+TextButton_8.Size = UDim2.new(0, 200, 0, 50)
+TextButton_8.Font = Enum.Font.GothamBold
+TextButton_8.Text = "Script"
+TextButton_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_8.TextSize = 14.000
+
+UICorner_14.CornerRadius = UDim.new(0, 32)
+UICorner_14.Parent = TextButton_8
+
+TextButton_9.Parent = ScrollingFrame
+TextButton_9.BackgroundColor3 = Color3.fromRGB(49, 48, 48)
+TextButton_9.BorderColor3 = Color3.fromRGB(49, 48, 48)
+TextButton_9.Position = UDim2.new(0.455284536, 0, 0, 0)
+TextButton_9.Size = UDim2.new(0, 200, 0, 50)
+TextButton_9.Font = Enum.Font.GothamBold
+TextButton_9.Text = "Script"
+TextButton_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_9.TextSize = 14.000
+
+UICorner_15.CornerRadius = UDim.new(0, 32)
+UICorner_15.Parent = TextButton_9
+
+TextButton_10.Parent = ScrollingFrame
+TextButton_10.BackgroundColor3 = Color3.fromRGB(49, 48, 48)
+TextButton_10.BorderColor3 = Color3.fromRGB(49, 48, 48)
+TextButton_10.Position = UDim2.new(0.0142276427, 0, 0.471428543, 0)
+TextButton_10.Size = UDim2.new(0, 200, 0, 50)
+TextButton_10.Font = Enum.Font.GothamBold
+TextButton_10.Text = "Script"
+TextButton_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_10.TextSize = 14.000
+
+UICorner_16.CornerRadius = UDim.new(0, 32)
+UICorner_16.Parent = TextButton_10
+
+TextButton_11.Parent = ScrollingFrame
+TextButton_11.BackgroundColor3 = Color3.fromRGB(49, 48, 48)
+TextButton_11.BorderColor3 = Color3.fromRGB(49, 48, 48)
+TextButton_11.Position = UDim2.new(0.455284536, 0, 0.339285702, 0)
+TextButton_11.Size = UDim2.new(0, 200, 0, 50)
+TextButton_11.Font = Enum.Font.GothamBold
+TextButton_11.Text = "Script"
+TextButton_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_11.TextSize = 14.000
+
+UICorner_17.CornerRadius = UDim.new(0, 32)
+UICorner_17.Parent = TextButton_11
+
+-- Scripts:
+
+local function QEEI_fake_script() -- Frame.DraggableGUI 
+	local script = Instance.new('LocalScript', Frame)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+			
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			if gui.Visible then
+				update(input)
+			end
+		end
+	end)
+end
+coroutine.wrap(QEEI_fake_script)()
+local function TMYGKGA_fake_script() -- ImageButton.LocalScript 
+	local script = Instance.new('LocalScript', ImageButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(TMYGKGA_fake_script)()
+local function ENSOUF_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.SH.Visible = true 
+	end)
+	
+end
+coroutine.wrap(ENSOUF_fake_script)()
+local function ZCWUR_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Credits.Visible = true 
+	end)
+	
+end
+coroutine.wrap(ZCWUR_fake_script)()
+local function HXHS_fake_script() -- ImageButton_2.LocalScript 
+	local script = Instance.new('LocalScript', ImageButton_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(HXHS_fake_script)()
+local function XUFJ_fake_script() -- ImageButton_3.LocalScript 
+	local script = Instance.new('LocalScript', ImageButton_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Ram.Visible = true
+	end)
+	
+end
+coroutine.wrap(XUFJ_fake_script)()
+local function SSWPS_fake_script() -- Icon.TriangleGrad 
+	local script = Instance.new('LocalScript', Icon)
+
+	local TweenService = game:GetService("TweenService")
+	local TweenSpeed = 0.5
+	local Info = TweenInfo.new(TweenSpeed, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut, 0)
+	
+	script.Parent.MouseEnter:Connect(function()
+		TweenService:Create(script.Parent.Triangle.UIGradient, Info, {Offset = Vector2.new(0,1)}):Play()
+		TweenService:Create(script.Parent.Credits.UIGradient, Info, {Offset = Vector2.new(0,1)}):Play()
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		TweenService:Create(script.Parent.Triangle.UIGradient, Info, {Offset = Vector2.new(0,-1)}):Play()
+		TweenService:Create(script.Parent.Credits.UIGradient, Info, {Offset = Vector2.new(0,-1)}):Play()
+	end)
+end
+coroutine.wrap(SSWPS_fake_script)()
+local function HQYUBX_fake_script() -- Icon.IconScript 
+	local script = Instance.new('LocalScript', Icon)
+
+	local img = game.Players:GetUserThumbnailAsync(3049646411, Enum.ThumbnailType.HeadShot, Enum.ThumbnailSize.Size352x352) -- Change "000" to your or another players UserID.
+	
+	script.Parent.Image = img
+end
+coroutine.wrap(HQYUBX_fake_script)()
+local function GHYWGN_fake_script() -- ImageButton_4.LocalScript 
+	local script = Instance.new('LocalScript', ImageButton_4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(GHYWGN_fake_script)()
+local function HRNES_fake_script() -- ImageButton_5.LocalScript 
+	local script = Instance.new('LocalScript', ImageButton_5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(HRNES_fake_script)()
