@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @JumqKey
-- 👀 I’m interested in Roblox Coding |
-- 🌱 I’m currently learning Lua , C , Phyton codes
+- 👀 I’m interested in anything related to computer architecture at a low level.
+- 🌱 I am currently learning the programming languages **Lua**, **C**, **Python**
 - 📫 How to reach me my email "xvecon@gmail.com"
 
 <!---
